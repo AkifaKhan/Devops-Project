@@ -29,9 +29,11 @@ A complete, production-ready AWS deployment with Terraform, Docker, and BI analy
    ```bash
    git clone https://github.com/AkifaKhan/Devops-Project
 2. *Prepare Terraform variables*
-- terraform init
-- terraform plan -var-file=variables.tfvars
-- terraform apply -var-file=variables.tfvars
+   ```bash
+ terraform init
+ terraform plan
+ terraform apply
+
 - Load data into RDS
 - Use SSH tunneling (via EC2) and DBeaver or CLI to import car dealership data.
 
