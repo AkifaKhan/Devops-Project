@@ -34,8 +34,8 @@ A complete, production-ready AWS deployment with Terraform, Docker, and BI analy
    terraform plan
    terraform apply
 
-- Load data into RDS
-- Use SSH tunneling (via EC2) and DBeaver or CLI to import car dealership data.
+3. Load data into RDS
+4. Use SSH tunneling (via EC2) and DBeaver or CLI to import car dealership data.
 
 Access the services
 
@@ -44,8 +44,6 @@ Frontend: (On two intances) https://akifa-al2.codelessops.site, https://ayeshal2
 Backend: (On two intances)  http://akifa-al2.codelessops.site, http://ayeshal2023.unmashable.online
 
 Metabase: https://akifa-ubuntu.codelessops.site
-
-Build dashboards
 
 ## 🚀 What's Inside
 IAC: Modular .tf files for VPC, subnets, EC2, ALB, ACM, DNS, RDS, security policies
